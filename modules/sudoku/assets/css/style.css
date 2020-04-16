@@ -1,0 +1,64 @@
+
+html, body {
+    background: #f4f4f4;
+}
+
+#main {
+    padding: 40px;
+    text-align: center;
+}
+
+#sudokuGrid {
+    margin: 0 auto;
+    border-collapse: collapse;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:    0px 0px 7px 0px rgba(50, 50, 50, 0.25);
+    box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.25);
+}
+
+#sudokuGrid td {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 18px;
+
+}
+
+#sudokuGrid td.empty {
+    cursor: pointer;
+    font-weight: bold;
+    background: #f7f7f7;
+}
+
+#sudokuGrid td.empty:hover {
+    background: #ff44f4;
+}
+
+#num {
+    position: relative;
+    width: 200px;
+    top: -10000px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    background: #f4f4f4;
+}
+
+#num a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background: #fff;
+}
+
+.btns {
+    padding: 40px
+}
+.btns > div {
+    display: inline-block;
+    width: 270px;
+    text-align: left;
+}
